@@ -1,0 +1,225 @@
+.prevImage{
+    background: url('/assets/button/leftprev.png');
+    display: inline-block;
+    margin-top: 205px;
+    margin-left: 35px;
+    width: 95px;
+    height: 100px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.prevImage:hover{
+    background: url('/assets/button/leftprev-1.png');
+    display: inline-block;
+    margin-top: 205px;
+    margin-left: 35px;
+    width: 95px;
+    height: 100px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.nextImage{
+    background: url('/assets/button/rightnext.png');
+    display: inline-block;
+    margin-top: 205px;
+    margin-left: 1230px;
+    width: 95px;
+    height: 100px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.nextImage:hover{
+    background: url('/assets/button/rightnext-1.png');
+    display: inline-block;
+    margin-top: 205px;
+    margin-left: 1230px;
+    width: 95px;
+    height: 100px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.showImage{
+    margin-top: 452px;
+    margin-left: 1130px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    width: 60px;
+    height: 30px;
+    font-size: 16;
+    cursor: pointer;
+}
+
+.showImage:hover{
+    margin-top: 452px;
+    margin-left: 1130px;
+    background: none;
+    border: 2px solid #ffae00;
+    border-radius: 5px;
+    color: #ffae00;
+    width: 60px;
+    height: 30px;
+    font-size: 16;
+    cursor: pointer;
+}
+
+.saveImage{
+    margin-top: 452px;
+    margin-left: 1200px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    width: 60px;
+    height: 30px;
+    font-size: 16;
+    cursor: pointer;
+}
+
+.saveImage:hover{
+    margin-top: 452px;
+    margin-left: 1200px;
+    background: none;
+    border: 2px solid #ffae00;
+    border-radius: 5px;
+    color: #ffae00;
+    width: 60px;
+    height: 30px;
+    font-size: 16;
+    cursor: pointer;
+}
+
+.ellipseParticle{
+    background: url('/assets/button/Ellipse.png');
+    display: inline-block;
+    margin-top: 450px;
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.ellipseParticle:hover{
+    background: url('/assets/button/Ellipse-1.png');
+    display: inline-block;
+    margin-top: 450px;
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.rectParticle{
+    background: url('/assets/button/Rect.png');
+    display: inline-block;
+    margin-top:450px;
+    margin-left: 50px;
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.rectParticle:hover{
+    background: url('/assets/button/Rect-1.png');
+    display: inline-block;
+    margin-top:450px;
+    margin-left: 50px;
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.triangleParticle{
+    background: url('/assets/button/Triangle.png');
+    display: inline-block;
+    margin-top:450px;
+    margin-left: 100px;
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.triangleParticle:hover{
+    background: url('/assets/button/Triangle-1.png');
+    display: inline-block;
+    margin-top:450px;
+    margin-left: 100px;
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.particleCountSlider{
+    /* -webkit-appearance: none;
+   
+    width: 150px;
+    background-color: #ebeff4;
+    height:4px; */
+
+
+    margin-top: 8px;/*上部分的填充值*/
+    outline: none; 
+    -webkit-appearance: none;/*清除系统默认样式*/  
+    margin-top:624px;
+    margin-left: 550px;
+    width: 150px;
+    /* width:100% !important;   */
+    background: -webkit-linear-gradient(#ffae00, #ffae00) no-repeat, #ddd;  /*背景颜色，俩个颜色分别对应上下，自己尝试下就知道了嗯*/
+    background-size: 100% 100%;/*设置左右宽度比例*/  
+    height: 3px;/*横条的高度*/  
+    border-radius: 3px;
+
+}
+
+.particleCountSlider::-webkit-slider-thumb{
+    -webkit-appearance: none;/*清除系统默认样式*/  
+    height:14px;/*拖动块高度*/  
+    width: 14px;/*拖动块宽度*/  
+    background: #f8f9fa;/*拖动块背景*/ 
+    border-radius: 50%; /*外观设置为圆形*/  
+    border: solid 1px #ddd; /*设置边框*/ 
+    cursor: pointer; 
+}
+
+
+/* ------------------------------ */
+.exploreit{
+   margin-left: 650px;
+   margin-top: 320px;
+    background: black;
+    border: 4px solid #ffae00;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 250px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 30;
+    cursor: pointer;
+}
+
+.exploreit:hover{
+    margin-left: 650px;
+   margin-top: 320px;
+    background: #ffae00;
+    border: 5px solid #ffae00;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 250px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 30;
+    cursor: pointer;
+}
