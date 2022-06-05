@@ -1,5 +1,5 @@
 .prevImage{
-    background: url('/assets/button/leftprev.png');
+    background: url('./assets/button/leftprev.png');
     display: inline-block;
     margin-top: 205px;
     margin-left: 35px;
@@ -10,7 +10,7 @@
     cursor: pointer;
 }
 .prevImage:hover{
-    background: url('/assets/button/leftprev-1.png');
+    background: url('./assets/button/leftprev-1.png');
     display: inline-block;
     margin-top: 205px;
     margin-left: 35px;
@@ -22,7 +22,7 @@
 }
 
 .nextImage{
-    background: url('/assets/button/rightnext.png');
+    background: url('./assets/button/rightnext.png');
     display: inline-block;
     margin-top: 205px;
     margin-left: 1230px;
@@ -33,7 +33,7 @@
     cursor: pointer;
 }
 .nextImage:hover{
-    background: url('/assets/button/rightnext-1.png');
+    background: url('./assets/button/rightnext-1.png');
     display: inline-block;
     margin-top: 205px;
     margin-left: 1230px;
@@ -96,7 +96,7 @@
 }
 
 .ellipseParticle{
-    background: url('/assets/button/Ellipse.png');
+    background: url('./assets/button/Ellipse.png');
     display: inline-block;
     margin-top: 450px;
     width: 35px;
@@ -106,7 +106,7 @@
     cursor: pointer;
 }
 .ellipseParticle:hover{
-    background: url('/assets/button/Ellipse-1.png');
+    background: url('./assets/button/Ellipse-1.png');
     display: inline-block;
     margin-top: 450px;
     width: 35px;
@@ -117,7 +117,7 @@
 }
 
 .rectParticle{
-    background: url('/assets/button/Rect.png');
+    background: url('./assets/button/Rect.png');
     display: inline-block;
     margin-top:450px;
     margin-left: 50px;
@@ -128,7 +128,7 @@
     cursor: pointer;
 }
 .rectParticle:hover{
-    background: url('/assets/button/Rect-1.png');
+    background: url('./assets/button/Rect-1.png');
     display: inline-block;
     margin-top:450px;
     margin-left: 50px;
@@ -140,7 +140,7 @@
 }
 
 .triangleParticle{
-    background: url('/assets/button/Triangle.png');
+    background: url('./assets/button/Triangle.png');
     display: inline-block;
     margin-top:450px;
     margin-left: 100px;
@@ -151,7 +151,7 @@
     cursor: pointer;
 }
 .triangleParticle:hover{
-    background: url('/assets/button/Triangle-1.png');
+    background: url('./assets/button/Triangle-1.png');
     display: inline-block;
     margin-top:450px;
     margin-left: 100px;
